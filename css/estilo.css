@@ -46,6 +46,12 @@ h2 {
 	color: firebrick;
 }
 
+h3 {
+	background-color: firebrick;
+	color: white;
+	padding: 5px;
+}
+
 #areaPostagens {
 	width: 660px;
 	float: left;
@@ -57,7 +63,7 @@ h2 {
 	background-color: white;
 }
 
-#menuLateral {
+.menuLateral {
 	width: 240px;
 	float: right;
 }
@@ -70,12 +76,41 @@ h2 {
 	display: block;
 }
 
-.linkPostagem {
+.linkPostagem,
+.linkPostagemLateral,
+.linksCategorias {
 	color: firebrick;
 }
 
-.linkPostagem:hover {
+.linkPostagem:hover,
+.linkPostagemLateral:hover,
+.linksCategorias:hover {
 	text-decoration: underline;
+}
+
+.conteudoLateral {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagemLateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted red;
+}
+
+.textoPostagemLateral {
+	margin-bottom: 5px;
+}
+
+#categorias {
+	margin: 10px;
+}
+
+.linksCategorias {
+	padding: 2px;
+	display: block;
 }
 
 footer {
