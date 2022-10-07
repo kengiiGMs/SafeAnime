@@ -14,12 +14,15 @@ header {
 	background-color: firebrick;
 }
 
-#linksHeader {
+#areaLinks {
 	padding-bottom: 8px;
 }
 
-.links {
+a {
 	text-decoration: none;
+}
+
+.links {
 	margin: 8px;
 	padding: 5px;
 	color: white;
@@ -29,6 +32,56 @@ header {
 	border-bottom: solid white 1px;
 }
 
-#imagemHeader {
+#areaImagemHeader {
 	padding: 10px;
+}
+
+main {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+h2 {
+	color: firebrick;
+}
+
+#areaPostagens {
+	width: 660px;
+	float: left;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+#menuLateral {
+	width: 240px;
+	float: right;
+}
+
+.dataPostagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid brown;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.linkPostagem {
+	color: firebrick;
+}
+
+.linkPostagem:hover {
+	text-decoration: underline;
+}
+
+footer {
+	clear: both;
+	background-color: brown;
+	color: white;
+	text-align: center;
+	padding: 15px;
 }
