@@ -113,6 +113,13 @@ h3 {
 	display: block;
 }
 
+.conteudoListaLateral {
+	margin-left: 20px;
+}
+
+.listaLateral {
+	margin-top: 10px;
+}
 footer {
 	clear: both;
 	background-color: brown;
