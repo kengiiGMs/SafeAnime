@@ -77,14 +77,12 @@ h3 {
 }
 
 .linkPostagem,
-.linkPostagemLateral,
-.linksCategorias {
+.linkPostagemLateral{
 	color: firebrick;
 }
 
 .linkPostagem:hover,
-.linkPostagemLateral:hover,
-.linksCategorias:hover {
+.linkPostagemLateral:hover {
 	text-decoration: underline;
 }
 
@@ -108,10 +106,7 @@ h3 {
 	margin: 10px;
 }
 
-.linksCategorias {
-	padding: 2px;
-	display: block;
-}
+
 
 .conteudoListaLateral {
 	margin-left: 20px;
@@ -127,3 +122,34 @@ footer {
 	text-align: center;
 	padding: 15px;
 }
+
+
+.categoriaLista{
+	list-style-type: none;
+	
+}
+
+.categoriaLista a {
+	padding: 2px;
+	display: block;
+	border: solid white 1px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	background-color: brown;
+	color: white;
+}
+
+.categoriaLista a:hover, 
+#manga .conteudoLateral .manga a,
+#loja .conteudoLateral .loja a,
+#animes .conteudoLateral .anime a,
+#novidades .conteudoLateral .novidades a
+{
+	background-color: white;
+	color: brown;
+	border: solid brown 1px;
+	text-decoration: underline;
+}
+
