@@ -122,6 +122,11 @@ img{
 .listaLateral {
 	margin-top: 2%;
 }
+
+#linkTabelaAnime{
+	text-align: center;
+	padding-top: 5px;
+}
 /* Lista Lateral */
 
 /* barra de navegação vertical */
@@ -129,11 +134,11 @@ img{
 	margin: 3%;
 }
 
-.categoriaLista{
+.categoriaLista, .categoriaAnime{
 	list-style-type: none;
 }
 
-.categoriaLista a {
+.categoriaLista a, .categoriaAnime a {
 	padding: 1%;
 	display: block;
 	border: solid white 1px;
@@ -144,6 +149,7 @@ img{
 }
 
 .categoriaLista a:hover, 
+.categoriaAnime a:hover,
 #manga .conteudoLateral .manga a,
 #loja .conteudoLateral .loja a,
 #animes .conteudoLateral .anime a,
@@ -188,3 +194,37 @@ ul.horizontalLista a:hover,
 	border-bottom: solid white 1px;
 }
 /* barra de navegação horizontal */
+
+#animeTabela{
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+#animeTabela thead{
+	background-color: firebrick;
+	color: white;
+}
+
+#animeTabela, th, td{
+	border-color: firebrick;
+	border-style: none none solid none;
+	border-width: 2px;
+	padding: 3%;
+}
+
+#animeTabela th{
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+#animeTabela tr:hover{
+	background-color: brown;
+	color: white;
+}
+
+
+
+.categoriasAnimeEsquerda{
+	text-align: left;
+}
