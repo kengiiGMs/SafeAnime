@@ -14,26 +14,16 @@ header {
 	background-color: firebrick;
 }
 
-#areaLinks {
-	padding-bottom: 8px;
+footer {
+	clear: both;
+	background-color: brown;
+	color: white;
+	text-align: center;
+	padding: 15px;
 }
 
 a {
 	text-decoration: none;
-}
-
-.links {
-	margin: 8px;
-	padding: 5px;
-	color: white;
-}
-
-.links:hover {
-	border-bottom: solid white 1px;
-}
-
-#areaImagemHeader {
-	padding: 10px;
 }
 
 main {
@@ -52,20 +42,28 @@ h3 {
 	padding: 5px;
 }
 
-.areaPostagens {
-	width: 660px;
-	float: left;
-}
-
-.postagem {
-	padding: 20px;
-	margin-bottom: 20px;
+.conteudoLateral {
 	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
 }
 
 .menuLateral {
 	width: 240px;
 	float: right;
+}
+
+.areaPostagens {
+	width: 660px;
+	float: left;
+}
+
+
+/* postagens */
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
 }
 
 .dataPostagem {
@@ -85,13 +83,9 @@ h3 {
 .linkPostagemLateral:hover {
 	text-decoration: underline;
 }
+/* postagensHorizontal */
 
-.conteudoLateral {
-	background-color: white;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
+/* postagensLateral */
 .postagemLateral {
 	font-size: 0.8em;
 	padding: 5px;
@@ -101,13 +95,9 @@ h3 {
 .textoPostagemLateral {
 	margin-bottom: 5px;
 }
+/* postagensLateral */
 
-.categorias {
-	margin: 10px;
-}
-
-
-
+/* Lista Lateral */
 .conteudoListaLateral {
 	margin-left: 20px;
 }
@@ -115,18 +105,15 @@ h3 {
 .listaLateral {
 	margin-top: 10px;
 }
-footer {
-	clear: both;
-	background-color: brown;
-	color: white;
-	text-align: center;
-	padding: 15px;
-}
+/* Lista Lateral */
 
+/* barra de navegação vertical */
+.categorias {
+	margin: 10px;
+}
 
 .categoriaLista{
 	list-style-type: none;
-	
 }
 
 .categoriaLista a {
@@ -152,4 +139,33 @@ footer {
 	border: solid brown 1px;
 	text-decoration: underline;
 }
+/* barra de navegação vertical */
 
+/* barra de navegação horizontal */
+#areaImagemHeader {
+	padding: 10px;
+}
+
+ul.horizontalLista {
+	padding-bottom: 10px;
+}
+
+ul.horizontalLista li{
+	display: inline-block;
+}
+ul.horizontalLista a{
+	padding: 0 2em 10px;
+	line-height: 2em;
+	color: white;
+}
+
+ul.horizontalLista a:hover,
+#index .horizontalLista .home a,
+#manga .horizontalLista .manga a,
+#loja .horizontalLista .loja a,
+#animes .horizontalLista .anime a,
+#novidades .horizontalLista .novidades a
+{
+	border-bottom: solid white 1px;
+}
+/* barra de navegação horizontal */
