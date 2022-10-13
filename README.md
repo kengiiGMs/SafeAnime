@@ -2,10 +2,8 @@
     Safe Anime
 </h1>
 <p align="center">
-    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+    <img src="https://user-images.githubusercontent.com/80048095/195715615-96ed87bd-e554-42ff-87fc-c0366895807e.png">
 </p>
-
-![telaHomes](https://user-images.githubusercontent.com/80048095/194974696-68594ba8-0de0-4cd3-8ffb-ee461b67d1bf.png)
 
 # Sobre
 <p>
