@@ -2,7 +2,7 @@
     Safe Anime
 </h1>
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/80048095/195715615-96ed87bd-e554-42ff-87fc-c0366895807e.png">
+    <img src="https://user-images.githubusercontent.com/80048095/213582576-c090344f-dd7d-408f-9449-8399639956bf.png">
 </p>
 
 # Sobre
